@@ -3,11 +3,12 @@
 Disciplina: Estrutura de Dados e Complexidade de Algoritmos  
 Universidade Federal da Paraíba
 
-## Algoritmos implementados
+## Objetivo
+Implementar os algoritmos de ordenação por comparação:
 - Insertion Sort
 - Selection Sort
 
-## Estrutura dos arquivos
+## Arquivos
 - `insertion_sort.py`: implementação do Insertion Sort
 - `selection_sort.py`: implementação do Selection Sort
 - `main.py`: execução pela linha de comando
@@ -16,5 +17,10 @@ Universidade Federal da Paraíba
 ## Como executar
 
 ### Insertion Sort
-```bash
 python main.py insertion 5 3 1 4 2
+
+### Selection Sort
+python main.py selection 5 3 1 4 2
+
+### Executar testes
+python testes.py
